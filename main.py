@@ -14,4 +14,4 @@ class Main:
         b = int(input("Enter a value for b: "));
         c = int(input("Enter a value for c: "));
         equation = second_degree_equation.Second_degree_equation(a, b, c);
-        equation.calculateX1AndX2();
+        equation.calculateSecondDegreeEquation();

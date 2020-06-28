@@ -12,7 +12,7 @@ class Second_degree_equation:
         self.b = b;
         self.c = c;
 
-    def calculateX1AndX2(self):
+    def calculateSecondDegreeEquation(self):
         delta = (self.b * self.b) - (4 * self.a * self.c);
         x1 = (-(self.b) + math.sqrt(delta)) / (2 * self.a);
         x2 = (-(self.b) - math.sqrt(delta)) / (2 * self.a);
@@ -31,4 +31,4 @@ if __name__ == '__main__':
     b = int(input("Enter a value for b: "));
     c = int(input("Enter a value for c: "));
     equation = Second_degree_equation(a, b, c);
-    equation.calculateX1AndX2();
+    equation.calculateSecondDegreeEquation();
