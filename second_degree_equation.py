@@ -21,7 +21,7 @@ class Second_degree_equation:
             x1 = int(x1);
             x2 = int(x2);
 
-            print("\n*************************Result*************************\n");
+            print("\n****************************Result****************************\n");
 
             print("The value of delta = {} " .format(delta));
             print("The value of X1 = {} " .format(x1));
@@ -30,12 +30,12 @@ class Second_degree_equation:
             x1 = (-(self.b) + math.sqrt(delta)) / (2 * self.a);
             x1 = float(x1);
 
-            print("\n*************************Result*************************\n");
+            print("\n****************************Result****************************\n");
 
             print("The value of delta = {} ".format(delta));
             print("The value of X1 = {} ".format(x1));
         else:
-            print("\n*************************Result*************************\n");
+            print("\n****************************Result****************************\n");
 
             print("The value of delta = {} ".format(delta));
             print("No real root. Delta is less than 0.");
